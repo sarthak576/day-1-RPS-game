@@ -12,6 +12,8 @@
  h1{
    font-size: 24px;
    margin: 0;
+   color: var(--primary-text);
+
  
  }
  h2{
@@ -37,7 +39,7 @@
    height: 120px;
    display: flex;
   flex-direction: column;
-  background-color: white ;
+  background-color: var(--primary-text) ;
  }
  
  .score{
@@ -45,6 +47,7 @@
    font-size: small;
    font-weight: bold;
    background-color: var(--primary-dark);
+   color: white;
  }
 
  .action{
